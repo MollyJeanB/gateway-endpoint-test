@@ -1,22 +1,6 @@
 {
   "nodes": [
     {
-      "id": "ca22b206",
-      "type": "function",
-      "x": 400,
-      "y": 185,
-      "name": "Hello!",
-      "outputs": 1,
-      "memorySize": 128,
-      "timeout": 30,
-      "runtime": "nodejs8",
-      "location": "inline",
-      "envVars": {},
-      "wires": [
-        []
-      ]
-    },
-    {
       "id": "3163c9a5",
       "type": "function",
       "x": 400,
@@ -25,7 +9,7 @@
       "outputs": 1,
       "memorySize": 128,
       "timeout": 30,
-      "runtime": "nodejs8",
+      "runtime": "nodejs",
       "location": "inline",
       "envVars": {},
       "entryPoint": "",
@@ -40,20 +24,6 @@
       "y": 235,
       "width": 185,
       "height": 260
-    },
-    {
-      "id": "b49238b1",
-      "type": "restApiEndpoint",
-      "x": 185,
-      "y": 185,
-      "name": "",
-      "path": "/",
-      "method": "GET",
-      "wires": [
-        [
-          "ca22b206"
-        ]
-      ]
     },
     {
       "id": "7ac7c79b",
