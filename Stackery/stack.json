@@ -3,15 +3,15 @@
     {
       "id": "ca22b206",
       "type": "function",
+      "x": 400,
+      "y": 185,
       "name": "Hello!",
       "outputs": 1,
       "memorySize": 128,
       "timeout": 30,
       "runtime": "nodejs8",
       "location": "inline",
-      "noerr": true,
-      "x": 400,
-      "y": 185,
+      "envVars": {},
       "wires": [
         []
       ]
@@ -19,15 +19,16 @@
     {
       "id": "3163c9a5",
       "type": "function",
-      "name": "Echo",
+      "x": 400,
+      "y": 285,
+      "name": "EchoFunction",
       "outputs": 1,
       "memorySize": 128,
       "timeout": 30,
       "runtime": "nodejs8",
       "location": "inline",
-      "noerr": true,
-      "x": 400,
-      "y": 285,
+      "envVars": {},
+      "entryPoint": "",
       "wires": [
         []
       ]
